@@ -3,6 +3,7 @@ body
   background-color: #F2EEED;
   color: #2F2A2A;
   margin: 0;
+  font-size: 1em;
   font-family: 'Roboto Mono',monospace;
   font-weight: 400;
 }
@@ -11,6 +12,36 @@ a
 {
   text-decoration: none;
   color: inherit;
+}
+
+.navigation
+{
+  width: 90%;
+  position: fixed;
+  top: 30px;
+  left: 7%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation .tab
+{
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 0 15px;
+  font-size: 1.1em;
+  transition: color 0.5s ease;
+}
+
+.navigation a:hover
+{
+  color: #C14B2F;
+  transition: color 0.5s ease;
+}
+
+.navigation .active span
+{
+  border-bottom: 5px solid #C14B2F;
 }
 
 .main_img
@@ -25,12 +56,13 @@ a
 
 .section_one
 {
-  margin: 20% 100px 0 100px;
+  margin: 15% 100px 0 100px;
 }
 
 .section_one .name
 {
   margin: 0;
+  width: 80%;
   font-size: 4.5em;
   font-weight: 500;
 }
@@ -44,13 +76,12 @@ a
 .section_one .project_link
 {
   margin-top: 7%;
-  font-size: 1em;
 }
 
 .project_link a
 {
   padding: 12px 24px;
-  border: 2.9px solid #2F2A2A;
+  border: 2px solid #2F2A2A;
   background-color: #939A5F;
   transition: background-color 0.5s ease;
   border-radius: 100px;
@@ -59,5 +90,94 @@ a
 .project_link a:hover
 {
   background-color: rgba(147, 154, 95, 0);
+  transition: background-color 0.5s ease;
+}
+
+.section_one .story
+{
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 40px;
+}
+
+.section_two
+{
+  margin: 30% auto 18% auto;
+  width: 60%;
+}
+
+.section_two .about_one
+{
+  font-size: 1.5em;
+  margin-bottom: 60px;
+}
+
+.section_two .about_two, .section_two .about_four
+{
+  line-height: 1.8;
+}
+
+.section_two .about_three .highlight
+{
+  background: linear-gradient(180deg,rgba(193,75,47,0) 50%, rgba(193,75,47,0.15) 50%);
+  padding-bottom: 5px;
+  font-style: italic;
+}
+
+.section_three
+{
+  width: 95%;
+  margin: auto;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_me
+{
+  width: 90%;
+  margin: 10% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact_img
+{
+  width: 500px;
+  height: 500px;
+  margin: 5%;
+}
+
+.contact_img img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.contact_fields
+{
+  margin: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact_fields a
+{
+  text-align: center;
+  padding: 12px 24px;
+  margin: 15px 0;
+  width: 300px;
+  background-color: #D6CBAA;
+  transition: background-color 0.5s ease;
+  border: 2px solid #2F2A2A;
+  border-radius: 100px;
+}
+
+.contact_fields a:hover
+{
+  background-color: rgba(214, 203, 170, 0);
   transition: background-color 0.5s ease;
 }
