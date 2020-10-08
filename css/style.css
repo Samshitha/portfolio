@@ -1,0 +1,63 @@
+body
+{
+  background-color: #F2EEED;
+  color: #2F2A2A;
+  margin: 0;
+  font-family: 'Roboto Mono',monospace;
+  font-weight: 400;
+}
+
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+.main_img
+{
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.section_one
+{
+  margin: 20% 100px 0 100px;
+}
+
+.section_one .name
+{
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
+.section_one .name_desc
+{
+  margin: 5px;
+  font-size: 1.7em;
+}
+
+.section_one .project_link
+{
+  margin-top: 7%;
+  font-size: 1em;
+}
+
+.project_link a
+{
+  padding: 12px 24px;
+  border: 2.9px solid #2F2A2A;
+  background-color: #939A5F;
+  transition: background-color 0.5s ease;
+  border-radius: 100px;
+}
+
+.project_link a:hover
+{
+  background-color: rgba(147, 154, 95, 0);
+  transition: background-color 0.5s ease;
+}
