@@ -133,6 +133,17 @@ a
   justify-content: space-between;
 }
 
+.notice
+{
+  width: 80%;
+  margin: 25% auto;
+}
+
+.notice .notice_desc
+{
+  font-size: 2em;
+}
+
 .contact_me
 {
   width: 90%;
